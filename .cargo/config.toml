@@ -1,0 +1,13 @@
+[target.'cfg(all())']
+rustflags = [
+    "-Dclippy::all",
+    "-Dclippy::panic",
+    "-Dclippy::pedantic",
+    "-Dnonstandard-style",
+    "-Drust-2018-idioms",
+    "-Dunused-crate-dependencies",
+    "-Aclippy::module-name-repetitions",
+    "-Aclippy::panic",
+    "-Aclippy::needless-pass-by-value",
+    "-Aclippy::redundant-else",
+]
